@@ -1,0 +1,23 @@
+{
+    "$schema": "http://json-schema.org/schema#",
+    "type": "object",
+    "required": ["tickerSymbol", "type", "price", "quantity"],
+    "properties": {
+        "tickerSymbol": {
+            "type": "string",
+            "minLength": 1
+        },
+        "type": {
+            "enum": ["BUY", "SELL"]
+        },
+        "price": {
+            "type": "number",
+            "minimum": 0,
+            "default": 100
+        },
+        "quantity": {
+            "type": "number",
+            "minimum": 1
+        }
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "logger": {
+        "features": {
+            "loggingEnabled": true,
+            "logMode": "ReqResp",
+            "consoleLogs": true,
+            "stringifyLogs": true
+        }
+    }
+}
