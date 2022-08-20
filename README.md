@@ -5,7 +5,7 @@ A portfolio tracking API is implemented which does CRUD operations on trades. It
 Step by step guide to setup the application
 
 ```bash
-git clone git@github.com:sakshi26-97/portfolio-tracker
+git clone git@github.com:sakshisubedi/portfolio-tracker
 ```
 
 Install dependencies
